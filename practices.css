@@ -1,0 +1,70 @@
+/* Variables */
+:root {
+    --primary: #2563eb;
+    --secondary: #1e40af;
+    --text: #1f2937;
+    --light: #f9fafb;
+    --border: 1px solid #e5e7eb;
+  }
+  
+  /* Base Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: var(--text);
+    background: var(--light);
+  }
+  
+  /* Layout */
+  .site-header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Components */
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    border: var(--border);
+  }
+  
+  .btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: var(--secondary);
+  }
+  
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary);
+    color: white;
+    margin-top: 2rem;
+  }

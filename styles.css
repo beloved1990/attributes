@@ -1,0 +1,49 @@
+.practical{
+    background-color: aquamarine;
+    font-style: italic;
+    height: 2px;
+}
+
+[name="my school"] {
+    height: 400px;
+    
+    color: blue;
+}
+
+[name^="my school"]{
+    width: 350;
+    background-color: blueviolet;
+
+}
+[name*="work"]{
+    border: 6px solid green;
+    font-weight: 800;
+}
+
+[name$="class"]{
+    color: yellowgreen;
+}
+
+
+.classA{
+    background-color: blue;
+}
+
+.classB {
+
+    background-color: red;
+}
+
+.classA,
+.classB{
+    height: 80px;
+}
+
+.classA1{
+
+    background-color: green;
+}
+
+.classA  .classA1{
+    background-color: white;
+}
